@@ -489,7 +489,7 @@ th {
   font-weight: bold;
 }
 li {
-  margin-bottom: calc(1.45rem / 2);
+  /* margin-bottom: calc(1.45rem / 2); */
 }
 ol li {
   padding-left: 0;
@@ -594,4 +594,12 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+.react-tabs__tab--selected {
+  background-color: aliceblue;
+}
+
+.react-tabs__tab-list {
+  padding-left: 1rem;
 }

@@ -14,7 +14,6 @@ const IndexPage = () => (
         <Tab>Create</Tab>
       </TabList>
       <TabPanel>
-        <h1>Listing</h1>
         <Iframe 
           src="https://airtable.com/embed/shryoxxKjvZAapoWK?backgroundColor=green&viewControls=on" 
           frameBorder="0"
@@ -24,7 +23,6 @@ const IndexPage = () => (
           </Iframe>
       </TabPanel>
       <TabPanel>
-        <h1>Creating</h1>
         <Iframe 
           src="https://airtable.com/embed/shrftZxCQkd4rK5sz?backgroundColor=green" 
           frameBorder="0" 
